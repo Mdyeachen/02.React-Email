@@ -13,7 +13,7 @@ import {
 
 const EmailIcon = ({ size }) => (
   <Img
-    src="https://bodyjewelrysatix.s3.us-west-1.amazonaws.com/satix/webDev/cannon.png"
+    src="https://raw.githubusercontent.com/Yeachen29/myimages/refs/heads/main/reset-icon.png"
     width={size}
     height={size}
     className="m-auto"
@@ -49,17 +49,17 @@ const Verify = () => {
         >
           <Body className="m-0 p-0 bg-white font-sans">
             <Container className="mx-auto border border-gray-300 rounded-lg shadow-md py-20">
-              <Hr />
               <Section className="logo text-center ">
-                <h1 className="py-5 text-2xl font-bold m-0">
+                <h1 className="py-2 text-2xl font-bold m-0">
                   <Img
-                    src="https://bodyjewelrysatix.s3.us-west-1.amazonaws.com/satix/webDev/logodark.png"
+                    src="https://raw.githubusercontent.com/Yeachen29/myimages/refs/heads/main/line-webbase-icon.png"
                     alt="Web Dev Logo"
-                    width="380"
+                    width="460"
                     className="m-auto"
                   />
                 </h1>
-                <EmailIcon size="180px" />
+                <Hr />
+                <EmailIcon size="360px" />
               </Section>
               <Section className="text-center py-5">
                 <Button

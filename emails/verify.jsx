@@ -12,7 +12,7 @@ import {
 
 const EmailIcon = ({ size }) => (
   <Img
-    src="https://bodyjewelrysatix.s3.us-west-1.amazonaws.com/satix/webDev/verifyIcon.gif"
+    src="https://raw.githubusercontent.com/Yeachen29/myimages/refs/heads/main/email.png"
     width={size}
     height={size}
     className="m-auto"
@@ -49,11 +49,11 @@ const Verify = () => {
           <Body className="m-0 p-0 bg-white font-sans">
             <Container className="mx-auto border border-gray-300 rounded-lg shadow-md">
               <Section className="logo">
-                <h1 className="bg-gray-800 py-5 text-white text-center text-2xl font-bold m-auto">
+                <h1 className="bg-gray-800 py-4 text-white text-center text-2xl font-bold m-auto">
                   <Img
-                    src="https://bodyjewelrysatix.s3.us-west-1.amazonaws.com/satix/webDev/logowhite.png"
+                    src="https://raw.githubusercontent.com/Yeachen29/myimages/refs/heads/main/webbase-icon-white.png"
                     alt="Web Dev Logo"
-                    width="380"
+                    width="150"
                     className="m-auto"
                   />
                 </h1>
